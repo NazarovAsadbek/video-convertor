@@ -1,0 +1,25 @@
+{
+  "name": "video-convertor",
+  "version": "1.0.0",
+  "description": "\"# video-convertor\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NazarovAsadbek/video-convertor.git"
+  },
+  "author": "NazarovAsadbek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NazarovAsadbek/video-convertor/issues"
+  },
+  "homepage": "https://github.com/NazarovAsadbek/video-convertor#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  }
+}
