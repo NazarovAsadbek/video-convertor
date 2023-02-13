@@ -22,14 +22,10 @@ export class FfmpegBuilder {
         }
         const args: string[] = ['-i', this.inputPath];
         this.options.forEach((value, key) => {
-            args.push(key, value);
+            args.push(key);
+            args.push(value);
         });
         args.push(outputPath);
         return args;
     }
 }
-
-new FfmpegBuilder()
-    .input('')
-    .setVideoSize(1920, 1080)
-    .output('//')

@@ -1,7 +1,7 @@
 import {IStreamLogger} from "./stream-logger.interface";
 import {ChildProcessWithoutNullStreams} from "child_process";
 
-export class StramHandlers {
+export class StreamHandler {
     constructor(private logger: IStreamLogger) {
 
     }
